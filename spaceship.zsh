@@ -194,7 +194,7 @@ prompt_spaceship_setup() {
   add-zsh-hook precmd spaceship_exec_time_precmd_hook
 
   # Disable python virtualenv environment prompt prefix
-  VIRTUAL_ENV_DISABLE_PROMPT=false
+  export VIRTUAL_ENV_DISABLE_PROMPT=true
 
   # Configure vcs_info helper for potential use in the future
   add-zsh-hook precmd spaceship_exec_vcs_info_precmd_hook
