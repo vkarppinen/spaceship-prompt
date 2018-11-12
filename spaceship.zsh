@@ -40,7 +40,6 @@ fi
 
 if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
   SPACESHIP_PROMPT_ORDER=(
-    venv          # virtualenv section
     time          # Time stampts section
     user          # Username section
     dir           # Current directory section
@@ -63,6 +62,7 @@ if [ -z "$SPACESHIP_PROMPT_ORDER" ]; then
     aws           # Amazon Web Services section
     conda         # conda virtualenv section
     pyenv         # Pyenv section
+    venv          # virtualenv section
     dotnet        # .NET section
     ember         # Ember.js section
     kubecontext   # Kubectl context section
